@@ -1,9 +1,21 @@
-[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
-
-[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
- - using env:	export GIN_MODE=release
- - using code:	gin.SetMode(gin.ReleaseMode)
-
-[GIN-debug] GET    /ping                     --> main.main.func2 (4 handlers)
-[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
-[GIN-debug] Listening and serving HTTP on :8080
+2020-10-07T17:18:40.156+0100	INFO	cmd/main.go:73	Application is running!
+2020-10-07T17:35:03.225+0100	INFO	cmd/main.go:72	Application is running!
+2020-10-07T17:38:42.199+0100	INFO	cmd/main.go:72	Application is running!
+2020-10-07T17:44:35.217+0100	INFO	cmd/main.go:72	Application is running!
+2020-10-07T18:08:09+01:00	INFO	cmd/main.go:50	Application is running!
+2020-10-07T18:08:51+01:00	INFO	cmd/main.go:50	Application is running!
+2020-10-07T18:08:51+01:00	DEBUG	cmd/main.go:51	 D Application is running!
+2020-10-07T19:10:20+01:00	INFO	cmd/main.go:50	Application is running!
+2020-10-07T19:10:35+01:00	INFO	cmd/main.go:50	Application is running!
+2020-10-07T19:10:35+01:00	DEBUG	cmd/main.go:51	 D Application is running!
+2020-10-08T10:05:39+01:00	INFO	cmd/main.go:52	Application is running on %s	{"server": "127.0.0.1:8080"}
+2020-10-08T10:07:49+01:00	INFO	cmd/main.go:50	Application is running on 127.0.0.1:8080
+2020-10-08T10:36:56+01:00	INFO	cmd/main.go:50	Application is running on 127.0.0.1:8080
+2020-10-08T11:05:33+01:00	INFO	cmd/main.go:59	Application is running on 127.0.0.1:8080
+2020-10-14T11:07:26+01:00	INFO	cmd/main.go:61	Application is running on 127.0.0.1:8080
+2020-10-14T11:13:10+01:00	INFO	cmd/main.go:61
+INFO	cmd/main.go:61
+2020-10-14T11:18:33+01:00	INFO	cmd/main.go:61	Application is running on 127.0.0.1:8080
+2020-10-14T11:27:13+01:00	INFO	cmd/main.go:74	test
+2020-10-14T11:27:13+01:00	INFO	cmd/main.go:82	test
+2020-10-14T11:27:13+01:00	INFO	cmd/main.go:61	Application is running on 127.0.0.1:8080
