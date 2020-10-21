@@ -46,6 +46,10 @@ type Logging struct {
 type Database struct {
 	Username string `yaml:"username" envconfig:"DB_USERNAME" validate:"nonzero"`
 	Password string `yaml:"password" envconfig:"DB_PASSWORD" validate:"nonzero"`
+	Ip       string `yaml:"ip" envconfig:"DB_IP" validate:"nonzero"`
+	Port     int    `yaml:"port" envconfig:"DB_PORT" validate:"nonzero"`
+	Schema   string `yaml:"schema" envconfig:"DB_SCHEMA" validate:"nonzero"`
+	Params   string `yaml:"params" envconfig:"DB_PARAMS" validate:"nonzero"`
 }
 
 // Validate validates the application configuration.

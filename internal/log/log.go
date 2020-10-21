@@ -181,7 +181,8 @@ func new(lb LoggerBuilder) *zap.Logger {
 		logger = zap.New(core)
 
 	}
-	// To initialize the global logger.
+	//TODO- Singleton pattern wouldn't be required if ReplaceGlobals is used,
+	// but keep in mind that more than 1 loggers could be used to log in different files
 	//zap.ReplaceGlobals(logger)
 
 	return logger
