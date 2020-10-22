@@ -1,21 +1,20 @@
-2020-10-07T17:18:40.156+0100	INFO	cmd/main.go:73	Application is running!
-2020-10-07T17:35:03.225+0100	INFO	cmd/main.go:72	Application is running!
-2020-10-07T17:38:42.199+0100	INFO	cmd/main.go:72	Application is running!
-2020-10-07T17:44:35.217+0100	INFO	cmd/main.go:72	Application is running!
-2020-10-07T18:08:09+01:00	INFO	cmd/main.go:50	Application is running!
-2020-10-07T18:08:51+01:00	INFO	cmd/main.go:50	Application is running!
-2020-10-07T18:08:51+01:00	DEBUG	cmd/main.go:51	 D Application is running!
-2020-10-07T19:10:20+01:00	INFO	cmd/main.go:50	Application is running!
-2020-10-07T19:10:35+01:00	INFO	cmd/main.go:50	Application is running!
-2020-10-07T19:10:35+01:00	DEBUG	cmd/main.go:51	 D Application is running!
-2020-10-08T10:05:39+01:00	INFO	cmd/main.go:52	Application is running on %s	{"server": "127.0.0.1:8080"}
-2020-10-08T10:07:49+01:00	INFO	cmd/main.go:50	Application is running on 127.0.0.1:8080
-2020-10-08T10:36:56+01:00	INFO	cmd/main.go:50	Application is running on 127.0.0.1:8080
-2020-10-08T11:05:33+01:00	INFO	cmd/main.go:59	Application is running on 127.0.0.1:8080
-2020-10-14T11:07:26+01:00	INFO	cmd/main.go:61	Application is running on 127.0.0.1:8080
-2020-10-14T11:13:10+01:00	INFO	cmd/main.go:61
-INFO	cmd/main.go:61
-2020-10-14T11:18:33+01:00	INFO	cmd/main.go:61	Application is running on 127.0.0.1:8080
-2020-10-14T11:27:13+01:00	INFO	cmd/main.go:74	test
-2020-10-14T11:27:13+01:00	INFO	cmd/main.go:82	test
-2020-10-14T11:27:13+01:00	INFO	cmd/main.go:61	Application is running on 127.0.0.1:8080
+2020-10-21T12:07:45+01:00	INFO	usermanagement/main.go:42	hi
+2020-10-21T12:09:26+01:00	INFO	usermanagement/main.go:42	hi
+2020-10-21T12:15:06+01:00	INFO	usermanagement/main.go:67	HI
+2020-10-21T12:15:41+01:00	INFO	usermanagement/main.go:67	HI
+2020-10-21T12:16:39+01:00	INFO	usermanagement/main.go:67	HI
+2020-10-21T12:18:25+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T12:31:31+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T13:34:56+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T13:36:19+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T13:40:35+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T13:43:49+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T13:52:51+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T13:55:29+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T14:02:28+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T14:05:38+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T14:06:41+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T14:08:55+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T14:10:49+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T14:24:02+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080
+2020-10-21T14:24:31+01:00	INFO	usermanagement/main.go:67	Application is running on 127.0.0.1:8080

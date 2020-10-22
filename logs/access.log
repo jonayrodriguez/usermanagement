@@ -1,2 +1,2 @@
-{"level":"INFO","status":200,"method":"GET","path":"/api/v1/ping","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","time":"2020-10-14T10:16:12Z","latency":0}
-{"level":"INFO","status":200,"method":"GET","path":"/api/v1/ping","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","time":"2020-10-14T10:18:52Z","latency":0}
+{"level":"INFO"}
+{"level":"INFO","status":404,"method":"POST","path":"/api/v1/users","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.26.5","time":"2020-10-21T12:54:49Z","latency":0}
