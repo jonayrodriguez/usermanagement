@@ -46,7 +46,8 @@ After installing Go and Docker, run the following commands to start experiencing
 # download the POC
 git clone https://github.com/jonayrodriguez/usermanagement.git
 
-cd usermanagement/cmd/usermanagement
+cd usermanagement
+go mod vendor
 
 # start a MySQL database server in a Docker container
 
@@ -55,8 +56,8 @@ docker run --name mysql8 -p3306:3306 -e MYSQL_ROOT_PASSWORD=pass4root -d mysql:8
 **NOTE:** A schema called usermanagement needs to be created
 
 # run the RESTful API server ( this will change to use make)
+cd usermanagement/cmd/usermanagement
 go run main.go 
-
 
 ```
 
