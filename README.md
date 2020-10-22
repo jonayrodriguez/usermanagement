@@ -64,7 +64,7 @@ go run main.go
 At this time, you have a RESTful API server running at `http://127.0.0.1:8080`. It provides the following endpoints:
 
 * `POST api/v1/users`: Create a User
-* `GET apit/v1/users/:username`: Get a user
+* `GET api/v1/users/:username`: Get a user
 * `GET api/v1/users`: Get all users (missing pagination)
 * `DELETE api/v1/users/:username`: deletes a user
 
