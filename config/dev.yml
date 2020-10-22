@@ -6,7 +6,7 @@ app:
 server:
   host: 127.0.0.1
   port: 8080
-  environment: production
+  environment: development
 # Database configurations
 database:
   username: root

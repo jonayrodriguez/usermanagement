@@ -4,14 +4,12 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"time"
 
-	"github.com/jonayrodriguez/usermanagement/internal/database"
 	mapping "github.com/jonayrodriguez/usermanagement/internal/router"
 
-	ginzap "github.com/gin-contrib/zap"
 	"github.com/gin-gonic/gin"
 	"github.com/jonayrodriguez/usermanagement/internal/config"
+	"github.com/jonayrodriguez/usermanagement/internal/database"
 	"github.com/jonayrodriguez/usermanagement/internal/log"
 )
 
@@ -24,7 +22,6 @@ const (
 	errorCodeConfig int = iota + 2
 	errorCodelogger
 	errorCodeDB
-	errorCodeServer
 )
 
 func main() {
@@ -53,15 +50,7 @@ func main() {
 		os.Exit(errorCodeDB)
 	}
 
-	router := mapping.InitRouter()
-
-	// Add a ginzap middleware, which:
-	// NOTE: This could have its own local package to be able to update it by adding appoptics
-	router.Use(ginzap.Ginzap(&accessLog.Logger, time.RFC3339, true))
-
-	// Logs all panic to error log
-	//   - stack means whether output the stack info.
-	router.Use(ginzap.RecoveryWithZap(&accessLog.Logger, true))
+	router := mapping.InitRouter(accessLog)
 
 	server := fmt.Sprintf("%s%s%d", conf.Server.Host, ":", conf.Server.Port)
 	systemLog.Logger.Info("Application is running on " + server)
