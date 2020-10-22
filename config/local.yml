@@ -1,8 +1,0 @@
-# Server configurations
-server:
-  host: 127.0.0.1
-  port: 8080
-
-logging:
-  mode: debug
-  path: ../logs/usermanagement.log

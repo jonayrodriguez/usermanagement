@@ -1,0 +1,28 @@
+app:
+  name: usermanagement
+  version: v0.0.1
+  repository: github.com/jonayrodriguez/usermanagement.git
+# Server configurations
+server:
+  host: 127.0.0.1
+  port: 8080
+  environment: production
+# Database configurations
+database:
+  username: root
+  password: pass4root
+  ip: 127.0.0.1
+  port: 3306
+  schema: usermanagement
+  params: charset=utf8mb4&parseTime=True&loc=Local
+# Logging configurations
+logging:
+  file: ../../logs/usermanagement.log
+  format: plain
+  level: debug
+  accessFile: ../../logs/access.log
+  accessFormat: json
+  accessLevel: info
+  maxSize: 5
+  maxBackup: 10
+  maxAge: 15
